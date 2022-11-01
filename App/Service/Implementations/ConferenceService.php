@@ -5,7 +5,7 @@
  * Use the repository layer to implement certain logic involving the database.
  */
 
-class ConferenceService extends ConferenceRepository implements BaseServiceInterface
+class ConferenceService implements BaseServiceInterface
 {
     private ConferenceRepository $conferenceRepository;
 
